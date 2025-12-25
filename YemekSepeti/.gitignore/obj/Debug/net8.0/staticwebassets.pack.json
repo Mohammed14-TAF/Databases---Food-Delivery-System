@@ -1,0 +1,477 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\AL-OFQ\\Documents\\Databases_Project\\YemekSepeti\\YemekSepeti\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\YemekSepeti.bundle.scp.css",
+      "PackagePath": "staticwebassets\\YemekSepeti.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\AL-OFQ\\Documents\\Databases_Project\\YemekSepeti\\YemekSepeti\\wwwroot\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\AL-OFQ\\Documents\\Databases_Project\\YemekSepeti\\YemekSepeti\\wwwroot\\css\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\css\\font-awesome.min.css"
+    },
+    {
+      "Id": "C:\\Users\\AL-OFQ\\Documents\\Databases_Project\\YemekSepeti\\YemekSepeti\\wwwroot\\css\\responsive.css",
+      "PackagePath": "staticwebassets\\css\\responsive.css"
+    },
+    {
+      "Id": "C:\\Users\\AL-OFQ\\Documents\\Databases_Project\\YemekSepeti\\YemekSepeti\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\AL-OFQ\\Documents\\Databases_Project\\YemekSepeti\\YemekSepeti\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\AL-OFQ\\Documents\\Databases_Project\\YemekSepeti\\YemekSepeti\\wwwroot\\css\\style.css.map",
+      "PackagePath": "staticwebassets\\css\\style.css.map"
+    },
+    {
+      "Id": "C:\\Users\\AL-OFQ\\Documents\\Databases_Project\\YemekSepeti\\YemekSepeti\\wwwroot\\css\\style.scss",
+      "PackagePath": "staticwebassets\\css\\style.scss"
+    },
+    {
+      "Id": "C:\\Users\\AL-OFQ\\Documents\\Databases_Project\\YemekSepeti\\YemekSepeti\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\AL-OFQ\\Documents\\Databases_Project\\YemekSepeti\\YemekSepeti\\wwwroot\\fonts\\bodoni-svtytwo-sc-itc-tt-book.ttf",
+      "PackagePath": "staticwebassets\\fonts\\bodoni-svtytwo-sc-itc-tt-book.ttf"
+    },
+    {
+      "Id": "C:\\Users\\AL-OFQ\\Documents\\Databases_Project\\YemekSepeti\\YemekSepeti\\wwwroot\\fonts\\fontawesome-webfont.ttf",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.ttf"
+    },
+    {
+      "Id": "C:\\Users\\AL-OFQ\\Documents\\Databases_Project\\YemekSepeti\\YemekSepeti\\wwwroot\\fonts\\fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.woff"
+    },
+    {
+      "Id": "C:\\Users\\AL-OFQ\\Documents\\Databases_Project\\YemekSepeti\\YemekSepeti\\wwwroot\\fonts\\fontawesome-webfont.woff2",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.woff2"
+    },
+    {
+      "Id": "C:\\Users\\AL-OFQ\\Documents\\Databases_Project\\YemekSepeti\\YemekSepeti\\wwwroot\\images\\Restaurants\\11fdce58-20a1-447e-b870-cbea52ad7470.webp",
+      "PackagePath": "staticwebassets\\images\\Restaurants\\11fdce58-20a1-447e-b870-cbea52ad7470.webp"
+    },
+    {
+      "Id": "C:\\Users\\AL-OFQ\\Documents\\Databases_Project\\YemekSepeti\\YemekSepeti\\wwwroot\\images\\Restaurants\\1e6aa55d-e39c-4873-b342-027b6fb3d13d.webp",
+      "PackagePath": "staticwebassets\\images\\Restaurants\\1e6aa55d-e39c-4873-b342-027b6fb3d13d.webp"
+    },
+    {
+      "Id": "C:\\Users\\AL-OFQ\\Documents\\Databases_Project\\YemekSepeti\\YemekSepeti\\wwwroot\\images\\Restaurants\\1f9a96e2-6952-4534-8de7-f5182223b52a.webp",
+      "PackagePath": "staticwebassets\\images\\Restaurants\\1f9a96e2-6952-4534-8de7-f5182223b52a.webp"
+    },
+    {
+      "Id": "C:\\Users\\AL-OFQ\\Documents\\Databases_Project\\YemekSepeti\\YemekSepeti\\wwwroot\\images\\Restaurants\\ad6871c9-c5d8-4aaa-abd9-3d058dc3e131.jpg",
+      "PackagePath": "staticwebassets\\images\\Restaurants\\ad6871c9-c5d8-4aaa-abd9-3d058dc3e131.jpg"
+    },
+    {
+      "Id": "C:\\Users\\AL-OFQ\\Documents\\Databases_Project\\YemekSepeti\\YemekSepeti\\wwwroot\\images\\Restaurants\\bead3b22-48c1-4f55-98b4-67c0a1b575a3.jpg",
+      "PackagePath": "staticwebassets\\images\\Restaurants\\bead3b22-48c1-4f55-98b4-67c0a1b575a3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\AL-OFQ\\Documents\\Databases_Project\\YemekSepeti\\YemekSepeti\\wwwroot\\images\\Restaurants\\c616835e-b814-40f0-a89c-d5f33c72b501.jpg",
+      "PackagePath": "staticwebassets\\images\\Restaurants\\c616835e-b814-40f0-a89c-d5f33c72b501.jpg"
+    },
+    {
+      "Id": "C:\\Users\\AL-OFQ\\Documents\\Databases_Project\\YemekSepeti\\YemekSepeti\\wwwroot\\images\\Restaurants\\cca4d101-d20c-4485-8a33-02400701573a.jpeg",
+      "PackagePath": "staticwebassets\\images\\Restaurants\\cca4d101-d20c-4485-8a33-02400701573a.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\AL-OFQ\\Documents\\Databases_Project\\YemekSepeti\\YemekSepeti\\wwwroot\\images\\Restaurants\\cd2a146a-9348-4e36-8b55-27c5676f5b7c.jpeg",
+      "PackagePath": "staticwebassets\\images\\Restaurants\\cd2a146a-9348-4e36-8b55-27c5676f5b7c.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\AL-OFQ\\Documents\\Databases_Project\\YemekSepeti\\YemekSepeti\\wwwroot\\images\\Restaurants\\fb847ad8-ea63-41ab-9cbc-4f121cc978f8.jpg",
+      "PackagePath": "staticwebassets\\images\\Restaurants\\fb847ad8-ea63-41ab-9cbc-4f121cc978f8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\AL-OFQ\\Documents\\Databases_Project\\YemekSepeti\\YemekSepeti\\wwwroot\\images\\Restaurants\\fe6156b1-5ce1-4572-80d3-676961c51b72.jpg",
+      "PackagePath": "staticwebassets\\images\\Restaurants\\fe6156b1-5ce1-4572-80d3-676961c51b72.jpg"
+    },
+    {
+      "Id": "C:\\Users\\AL-OFQ\\Documents\\Databases_Project\\YemekSepeti\\YemekSepeti\\wwwroot\\images\\about-img.jpg",
+      "PackagePath": "staticwebassets\\images\\about-img.jpg"
+    },
+    {
+      "Id": "C:\\Users\\AL-OFQ\\Documents\\Databases_Project\\YemekSepeti\\YemekSepeti\\wwwroot\\images\\app-bg.png",
+      "PackagePath": "staticwebassets\\images\\app-bg.png"
+    },
+    {
+      "Id": "C:\\Users\\AL-OFQ\\Documents\\Databases_Project\\YemekSepeti\\YemekSepeti\\wwwroot\\images\\app_store.png",
+      "PackagePath": "staticwebassets\\images\\app_store.png"
+    },
+    {
+      "Id": "C:\\Users\\AL-OFQ\\Documents\\Databases_Project\\YemekSepeti\\YemekSepeti\\wwwroot\\images\\body-bg.jpg",
+      "PackagePath": "staticwebassets\\images\\body-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\AL-OFQ\\Documents\\Databases_Project\\YemekSepeti\\YemekSepeti\\wwwroot\\images\\footer-bg.png",
+      "PackagePath": "staticwebassets\\images\\footer-bg.png"
+    },
+    {
+      "Id": "C:\\Users\\AL-OFQ\\Documents\\Databases_Project\\YemekSepeti\\YemekSepeti\\wwwroot\\images\\google_play.png",
+      "PackagePath": "staticwebassets\\images\\google_play.png"
+    },
+    {
+      "Id": "C:\\Users\\AL-OFQ\\Documents\\Databases_Project\\YemekSepeti\\YemekSepeti\\wwwroot\\images\\hero-bg.jpg",
+      "PackagePath": "staticwebassets\\images\\hero-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\AL-OFQ\\Documents\\Databases_Project\\YemekSepeti\\YemekSepeti\\wwwroot\\images\\menu.png",
+      "PackagePath": "staticwebassets\\images\\menu.png"
+    },
+    {
+      "Id": "C:\\Users\\AL-OFQ\\Documents\\Databases_Project\\YemekSepeti\\YemekSepeti\\wwwroot\\images\\menu\\1544077e-46ba-447f-bb9c-c18f282c5313.jpg",
+      "PackagePath": "staticwebassets\\images\\menu\\1544077e-46ba-447f-bb9c-c18f282c5313.jpg"
+    },
+    {
+      "Id": "C:\\Users\\AL-OFQ\\Documents\\Databases_Project\\YemekSepeti\\YemekSepeti\\wwwroot\\images\\menu\\308056e1-d5e3-42b1-990d-a1fa11ba8c18.webp",
+      "PackagePath": "staticwebassets\\images\\menu\\308056e1-d5e3-42b1-990d-a1fa11ba8c18.webp"
+    },
+    {
+      "Id": "C:\\Users\\AL-OFQ\\Documents\\Databases_Project\\YemekSepeti\\YemekSepeti\\wwwroot\\images\\menu\\3317d398-e42d-4cd7-bab5-3cf2cee9f798.webp",
+      "PackagePath": "staticwebassets\\images\\menu\\3317d398-e42d-4cd7-bab5-3cf2cee9f798.webp"
+    },
+    {
+      "Id": "C:\\Users\\AL-OFQ\\Documents\\Databases_Project\\YemekSepeti\\YemekSepeti\\wwwroot\\images\\menu\\423d7d84-bee2-41b7-b4d3-90ac9e640ef8.jpeg",
+      "PackagePath": "staticwebassets\\images\\menu\\423d7d84-bee2-41b7-b4d3-90ac9e640ef8.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\AL-OFQ\\Documents\\Databases_Project\\YemekSepeti\\YemekSepeti\\wwwroot\\images\\menu\\42e3a524-7dfc-44ec-99c5-e631c3edb7ce.jpeg",
+      "PackagePath": "staticwebassets\\images\\menu\\42e3a524-7dfc-44ec-99c5-e631c3edb7ce.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\AL-OFQ\\Documents\\Databases_Project\\YemekSepeti\\YemekSepeti\\wwwroot\\images\\menu\\50145f7c-e998-4155-ba63-8e7872a2cfe8.webp",
+      "PackagePath": "staticwebassets\\images\\menu\\50145f7c-e998-4155-ba63-8e7872a2cfe8.webp"
+    },
+    {
+      "Id": "C:\\Users\\AL-OFQ\\Documents\\Databases_Project\\YemekSepeti\\YemekSepeti\\wwwroot\\images\\menu\\791d9eea-02e1-48c0-8458-5441c44d3c02.jpg",
+      "PackagePath": "staticwebassets\\images\\menu\\791d9eea-02e1-48c0-8458-5441c44d3c02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\AL-OFQ\\Documents\\Databases_Project\\YemekSepeti\\YemekSepeti\\wwwroot\\images\\menu\\a506fecb-17e8-4d4e-b6a1-f646c3f5aa5f.jpeg",
+      "PackagePath": "staticwebassets\\images\\menu\\a506fecb-17e8-4d4e-b6a1-f646c3f5aa5f.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\AL-OFQ\\Documents\\Databases_Project\\YemekSepeti\\YemekSepeti\\wwwroot\\images\\menu\\c780a96e-3061-4acd-be79-d7e248680f96.jpeg",
+      "PackagePath": "staticwebassets\\images\\menu\\c780a96e-3061-4acd-be79-d7e248680f96.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\AL-OFQ\\Documents\\Databases_Project\\YemekSepeti\\YemekSepeti\\wwwroot\\images\\menu\\e1ef55c1-7908-4b3e-9b4a-949e9c7ed313.webp",
+      "PackagePath": "staticwebassets\\images\\menu\\e1ef55c1-7908-4b3e-9b4a-949e9c7ed313.webp"
+    },
+    {
+      "Id": "C:\\Users\\AL-OFQ\\Documents\\Databases_Project\\YemekSepeti\\YemekSepeti\\wwwroot\\images\\menu\\e26bee5f-3f53-4676-a5d6-5c86d30a3b17.jpg",
+      "PackagePath": "staticwebassets\\images\\menu\\e26bee5f-3f53-4676-a5d6-5c86d30a3b17.jpg"
+    },
+    {
+      "Id": "C:\\Users\\AL-OFQ\\Documents\\Databases_Project\\YemekSepeti\\YemekSepeti\\wwwroot\\images\\menu\\e89d94f9-6028-4cc7-b2ed-6c4b0bcc3de8.webp",
+      "PackagePath": "staticwebassets\\images\\menu\\e89d94f9-6028-4cc7-b2ed-6c4b0bcc3de8.webp"
+    },
+    {
+      "Id": "C:\\Users\\AL-OFQ\\Documents\\Databases_Project\\YemekSepeti\\YemekSepeti\\wwwroot\\images\\mobile.png",
+      "PackagePath": "staticwebassets\\images\\mobile.png"
+    },
+    {
+      "Id": "C:\\Users\\AL-OFQ\\Documents\\Databases_Project\\YemekSepeti\\YemekSepeti\\wwwroot\\images\\n1.jpg",
+      "PackagePath": "staticwebassets\\images\\n1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\AL-OFQ\\Documents\\Databases_Project\\YemekSepeti\\YemekSepeti\\wwwroot\\images\\n2.jpg",
+      "PackagePath": "staticwebassets\\images\\n2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\AL-OFQ\\Documents\\Databases_Project\\YemekSepeti\\YemekSepeti\\wwwroot\\images\\r1.jpg",
+      "PackagePath": "staticwebassets\\images\\r1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\AL-OFQ\\Documents\\Databases_Project\\YemekSepeti\\YemekSepeti\\wwwroot\\images\\r2.jpg",
+      "PackagePath": "staticwebassets\\images\\r2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\AL-OFQ\\Documents\\Databases_Project\\YemekSepeti\\YemekSepeti\\wwwroot\\images\\r3.jpg",
+      "PackagePath": "staticwebassets\\images\\r3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\AL-OFQ\\Documents\\Databases_Project\\YemekSepeti\\YemekSepeti\\wwwroot\\images\\slider-img1.png",
+      "PackagePath": "staticwebassets\\images\\slider-img1.png"
+    },
+    {
+      "Id": "C:\\Users\\AL-OFQ\\Documents\\Databases_Project\\YemekSepeti\\YemekSepeti\\wwwroot\\images\\slider-img2.png",
+      "PackagePath": "staticwebassets\\images\\slider-img2.png"
+    },
+    {
+      "Id": "C:\\Users\\AL-OFQ\\Documents\\Databases_Project\\YemekSepeti\\YemekSepeti\\wwwroot\\images\\slider-img3.png",
+      "PackagePath": "staticwebassets\\images\\slider-img3.png"
+    },
+    {
+      "Id": "C:\\Users\\AL-OFQ\\Documents\\Databases_Project\\YemekSepeti\\YemekSepeti\\wwwroot\\images\\slider-img4.png",
+      "PackagePath": "staticwebassets\\images\\slider-img4.png"
+    },
+    {
+      "Id": "C:\\Users\\AL-OFQ\\Documents\\Databases_Project\\YemekSepeti\\YemekSepeti\\wwwroot\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\AL-OFQ\\Documents\\Databases_Project\\YemekSepeti\\YemekSepeti\\wwwroot\\js\\custom.js",
+      "PackagePath": "staticwebassets\\js\\custom.js"
+    },
+    {
+      "Id": "C:\\Users\\AL-OFQ\\Documents\\Databases_Project\\YemekSepeti\\YemekSepeti\\wwwroot\\js\\jquery-3.4.1.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery-3.4.1.min.js"
+    },
+    {
+      "Id": "C:\\Users\\AL-OFQ\\Documents\\Databases_Project\\YemekSepeti\\YemekSepeti\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\AL-OFQ\\Documents\\Databases_Project\\YemekSepeti\\YemekSepeti\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\AL-OFQ\\Documents\\Databases_Project\\YemekSepeti\\YemekSepeti\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\AL-OFQ\\Documents\\Databases_Project\\YemekSepeti\\YemekSepeti\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\AL-OFQ\\Documents\\Databases_Project\\YemekSepeti\\YemekSepeti\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\AL-OFQ\\Documents\\Databases_Project\\YemekSepeti\\YemekSepeti\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\AL-OFQ\\Documents\\Databases_Project\\YemekSepeti\\YemekSepeti\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\AL-OFQ\\Documents\\Databases_Project\\YemekSepeti\\YemekSepeti\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\AL-OFQ\\Documents\\Databases_Project\\YemekSepeti\\YemekSepeti\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\AL-OFQ\\Documents\\Databases_Project\\YemekSepeti\\YemekSepeti\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\AL-OFQ\\Documents\\Databases_Project\\YemekSepeti\\YemekSepeti\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\AL-OFQ\\Documents\\Databases_Project\\YemekSepeti\\YemekSepeti\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\AL-OFQ\\Documents\\Databases_Project\\YemekSepeti\\YemekSepeti\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\AL-OFQ\\Documents\\Databases_Project\\YemekSepeti\\YemekSepeti\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\AL-OFQ\\Documents\\Databases_Project\\YemekSepeti\\YemekSepeti\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\AL-OFQ\\Documents\\Databases_Project\\YemekSepeti\\YemekSepeti\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\AL-OFQ\\Documents\\Databases_Project\\YemekSepeti\\YemekSepeti\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\AL-OFQ\\Documents\\Databases_Project\\YemekSepeti\\YemekSepeti\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\AL-OFQ\\Documents\\Databases_Project\\YemekSepeti\\YemekSepeti\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\AL-OFQ\\Documents\\Databases_Project\\YemekSepeti\\YemekSepeti\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\AL-OFQ\\Documents\\Databases_Project\\YemekSepeti\\YemekSepeti\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\AL-OFQ\\Documents\\Databases_Project\\YemekSepeti\\YemekSepeti\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\AL-OFQ\\Documents\\Databases_Project\\YemekSepeti\\YemekSepeti\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\AL-OFQ\\Documents\\Databases_Project\\YemekSepeti\\YemekSepeti\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\AL-OFQ\\Documents\\Databases_Project\\YemekSepeti\\YemekSepeti\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\AL-OFQ\\Documents\\Databases_Project\\YemekSepeti\\YemekSepeti\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\AL-OFQ\\Documents\\Databases_Project\\YemekSepeti\\YemekSepeti\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\AL-OFQ\\Documents\\Databases_Project\\YemekSepeti\\YemekSepeti\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\AL-OFQ\\Documents\\Databases_Project\\YemekSepeti\\YemekSepeti\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\AL-OFQ\\Documents\\Databases_Project\\YemekSepeti\\YemekSepeti\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\AL-OFQ\\Documents\\Databases_Project\\YemekSepeti\\YemekSepeti\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\AL-OFQ\\Documents\\Databases_Project\\YemekSepeti\\YemekSepeti\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\AL-OFQ\\Documents\\Databases_Project\\YemekSepeti\\YemekSepeti\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\AL-OFQ\\Documents\\Databases_Project\\YemekSepeti\\YemekSepeti\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\AL-OFQ\\Documents\\Databases_Project\\YemekSepeti\\YemekSepeti\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\AL-OFQ\\Documents\\Databases_Project\\YemekSepeti\\YemekSepeti\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\AL-OFQ\\Documents\\Databases_Project\\YemekSepeti\\YemekSepeti\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\AL-OFQ\\Documents\\Databases_Project\\YemekSepeti\\YemekSepeti\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\AL-OFQ\\Documents\\Databases_Project\\YemekSepeti\\YemekSepeti\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\AL-OFQ\\Documents\\Databases_Project\\YemekSepeti\\YemekSepeti\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\AL-OFQ\\Documents\\Databases_Project\\YemekSepeti\\YemekSepeti\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\AL-OFQ\\Documents\\Databases_Project\\YemekSepeti\\YemekSepeti\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\AL-OFQ\\Documents\\Databases_Project\\YemekSepeti\\YemekSepeti\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\AL-OFQ\\Documents\\Databases_Project\\YemekSepeti\\YemekSepeti\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\AL-OFQ\\Documents\\Databases_Project\\YemekSepeti\\YemekSepeti\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\AL-OFQ\\Documents\\Databases_Project\\YemekSepeti\\YemekSepeti\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\AL-OFQ\\Documents\\Databases_Project\\YemekSepeti\\YemekSepeti\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\AL-OFQ\\Documents\\Databases_Project\\YemekSepeti\\YemekSepeti\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\AL-OFQ\\Documents\\Databases_Project\\YemekSepeti\\YemekSepeti\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\AL-OFQ\\Documents\\Databases_Project\\YemekSepeti\\YemekSepeti\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\AL-OFQ\\Documents\\Databases_Project\\YemekSepeti\\YemekSepeti\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\AL-OFQ\\Documents\\Databases_Project\\YemekSepeti\\YemekSepeti\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\AL-OFQ\\Documents\\Databases_Project\\YemekSepeti\\YemekSepeti\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\AL-OFQ\\Documents\\Databases_Project\\YemekSepeti\\YemekSepeti\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\AL-OFQ\\Documents\\Databases_Project\\YemekSepeti\\YemekSepeti\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\AL-OFQ\\Documents\\Databases_Project\\YemekSepeti\\YemekSepeti\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\AL-OFQ\\Documents\\Databases_Project\\YemekSepeti\\YemekSepeti\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\AL-OFQ\\Documents\\Databases_Project\\YemekSepeti\\YemekSepeti\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.YemekSepeti.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.YemekSepeti.props",
+      "PackagePath": "build\\YemekSepeti.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.YemekSepeti.props",
+      "PackagePath": "buildMultiTargeting\\YemekSepeti.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.YemekSepeti.props",
+      "PackagePath": "buildTransitive\\YemekSepeti.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

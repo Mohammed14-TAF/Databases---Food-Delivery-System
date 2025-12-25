@@ -1,0 +1,37 @@
+@using Microsoft.AspNetCore.Http
+@inject IHttpContextAccessor HttpContextAccessor
+
+@{
+    Layout = "_Layout";
+    var name = HttpContextAccessor?.HttpContext?.Session?.GetString("FullName") ?? "Admin";
+}
+
+<section class="layout_padding" style="padding: 80px 0;">
+    <div class="container">
+
+        <h2 class="heading_center" style="margin-bottom: 40px;">
+            Admin Dashboard
+        </h2>
+
+        <p style="font-size:18px; margin-bottom:40px;">
+            Welcome, <strong>@name</strong>
+        </p>
+
+        <!-- SIMPLE BUTTONS -->
+        <div style="display:flex; gap:20px; flex-wrap:wrap;">
+
+            <a href="/Admin/Restaurants" class="btn btn-dark" 
+               style="padding:15px 25px; font-size:18px; border-radius:8px;">
+                Manage Restaurants
+            </a>
+
+          
+            <a href="/Admin/Orders" class="btn btn-dark"
+               style="padding:15px 25px; font-size:18px; border-radius:8px;">
+                View Orders
+            </a>
+
+        </div>
+
+    </div>
+</section>

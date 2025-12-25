@@ -1,0 +1,32 @@
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewData["Title"] = "Order Success";
+}
+
+<div class="container mt-5 text-center">
+
+    <div class="alert alert-success shadow-sm"
+         style="border-radius:15px; padding:30px;">
+
+        <h2 class="mb-3">✅ Order Placed Successfully!</h2>
+
+        <p class="mb-4" style="font-size:18px;">
+            Thank you for your order.<br />
+            Your food is being prepared and will be delivered soon.
+        </p>
+
+        <a asp-controller="Restaurants"
+           asp-action="Index"
+           class="btn btn-primary me-2">
+            Back to Restaurants
+        </a>
+
+        <a asp-controller="Cart"
+           asp-action="Index"
+           class="btn btn-outline-secondary">
+            View Cart
+        </a>
+
+    </div>
+
+</div>

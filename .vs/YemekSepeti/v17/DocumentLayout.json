@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\AL-OFQ\\Documents\\Databases_Project\\YemekSepeti\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{360180B8-9845-4962-9161-1CBFD10ED560}|YemekSepeti\\YemekSepeti.csproj|c:\\users\\al-ofq\\documents\\databases_project\\yemeksepeti\\yemeksepeti\\views\\restaurants\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{360180B8-9845-4962-9161-1CBFD10ED560}|YemekSepeti\\YemekSepeti.csproj|solutionrelative:yemeksepeti\\views\\restaurants\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\AL-OFQ\\Documents\\Databases_Project\\YemekSepeti\\YemekSepeti\\Views\\Restaurants\\Index.cshtml",
+              "RelativeDocumentMoniker": "YemekSepeti\\Views\\Restaurants\\Index.cshtml",
+              "ToolTip": "C:\\Users\\AL-OFQ\\Documents\\Databases_Project\\YemekSepeti\\YemekSepeti\\Views\\Restaurants\\Index.cshtml",
+              "RelativeToolTip": "YemekSepeti\\Views\\Restaurants\\Index.cshtml",
+              "ViewState": "AQIAAOYBAAAAAAAAAADwv/IBAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-03T10:21:12.47Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

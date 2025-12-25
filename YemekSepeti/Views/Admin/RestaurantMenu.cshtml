@@ -1,0 +1,57 @@
+@model List<YemekSepeti.Models.MenuItem>
+
+@{
+    Layout = "_Layout";
+}
+
+<section class="layout_padding" style="padding: 80px 0;">
+    <div class="container">
+
+        <h2 class="heading_center" style="margin-bottom: 30px;">
+            Menu for @ViewBag.RestaurantName
+        </h2>
+
+        <!-- Add Menu Item -->
+        <div style="margin-bottom: 25px;">
+            <a href="/Admin/AddMenuItem?restaurantId=@ViewBag.RestaurantID"
+               class="btn btn-dark"
+               style="padding:12px 22px; font-size:16px; border-radius:6px;">
+                Add Menu Item
+            </a>
+        </div>
+
+        <!-- Menu List -->
+        <table class="table table-bordered table-striped" style="background:white;">
+            <thead style="background:#f5f5f5; font-weight:600;">
+                <tr>
+                    <th>Name</th>
+                    <th>Description</th>
+                    <th>Price (TL)</th>
+                    <th style="width:150px;">Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@item.Name</td>
+                        <td>@item.Description</td>
+                        <td>@item.Price</td>
+                        <td>
+                            <a href="/Admin/EditMenuItem/@item.MenuItemID"
+                               class="btn btn-sm btn-dark" style="margin-right:5px;">
+                                Edit
+                            </a>
+
+                            <a href="/Admin/DeleteMenuItem/@item.MenuItemID"
+                               class="btn btn-sm btn-secondary">
+                                Delete
+                            </a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+
+    </div>
+</section>

@@ -1,0 +1,41 @@
+@model YemekSepeti.Models.MenuItem
+
+@{
+    Layout = "_Layout";
+}
+
+<section class="layout_padding" style="padding:80px 0;">
+    <div class="container" style="max-width:600px;">
+
+        <h2 class="heading_center" style="margin-bottom: 30px;">
+            Edit Menu Item
+        </h2>
+
+        <form method="post" action="/Admin/EditMenuItem">
+
+            <input type="hidden" name="MenuItemID" value="@Model.MenuItemID" />
+            <input type="hidden" name="RestaurantID" value="@Model.RestaurantID" />
+
+            <div class="form-group mb-3">
+                <label>Name</label>
+                <input type="text" class="form-control" name="Name" value="@Model.Name" required />
+            </div>
+
+            <div class="form-group mb-3">
+                <label>Description</label>
+                <textarea class="form-control" name="Description">@Model.Description</textarea>
+            </div>
+
+            <div class="form-group mb-3">
+                <label>Price (TL)</label>
+                <input type="number" class="form-control" name="Price" step="0.01" value="@Model.Price" required />
+            </div>
+
+            <button type="submit" class="btn btn-dark">Save Changes</button>
+            <a href="/Admin/RestaurantMenu/@Model.RestaurantID"
+               class="btn btn-secondary">Cancel</a>
+
+        </form>
+
+    </div>
+</section>

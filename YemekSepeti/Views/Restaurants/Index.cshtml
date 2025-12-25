@@ -1,0 +1,105 @@
+@model IEnumerable<YemekSepeti.Models.Restaurant>
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<style>
+    .restaurant-card {
+        border-radius: 12px;
+        overflow: hidden;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.12);
+        transition: 0.3s ease;
+        background: white;
+    }
+    .restaurant-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 6px 16px rgba(0,0,0,0.20);
+    }
+    .restaurant-card img {
+        width: 100%;
+        height: 180px;
+        object-fit: cover;
+    }
+</style>
+
+<section class="layout_padding">
+    <div class="container">
+
+        <h2 class="mb-4" style="font-weight:700;">Restaurants</h2>
+
+        <!-- 🔍 SEARCH & CATEGORY FILTER -->
+        <form method="get" action="/Restaurants">
+            <div class="row mb-4">
+
+                <!-- SEARCH BAR -->
+                <div class="col-md-6 mb-2">
+                    <input type="text"
+                           name="search"
+                           value="@Context.Request.Query["search"]"
+                           class="form-control"
+                           placeholder="Search restaurant name or description..." />
+                </div>
+
+                <!-- CATEGORY FILTER -->
+                <div class="col-md-3 mb-2">
+                    <select name="category" class="form-control">
+                        <option value="">All Categories</option>
+                        <option value="Fast Food">Fast Food</option>
+                        <option value="Italian">Italian</option>
+                        <option value="Turkish">Turkish</option>
+                        <option value="Dessert">Dessert</option>
+                        <option value="Healthy">Healthy</option>
+                    </select>
+                </div>
+
+                <!-- SUBMIT BUTTON -->
+                <div class="col-md-3 mb-2">
+                    <button class="btn btn-warning w-100" 
+                            style="font-weight:bold;">
+                        Filter
+                    </button>
+                </div>
+            </div>
+        </form>
+
+        <!-- RESTAURANTS GRID -->
+        <div class="row">
+            @foreach (var r in Model)
+            {
+                <div class="col-md-4 mb-4">
+                    <div class="restaurant-card">
+
+                        <!-- IMAGE -->
+                        <img src="@r.ImageUrl" 
+                             onerror="this.src='/images/default-restaurant.png';" />
+
+                        <div class="p-3">
+
+                            <!-- NAME -->
+                            <h5 style="font-weight:600;">@r.Name</h5>
+
+                            <!-- DESCRIPTION -->
+                            <p style="font-size:14px; color:#555;">
+                                @r.Description
+                            </p>
+
+                            <!-- ADDRESS -->
+                            <p style="font-size:13px; color:#777;">
+                                <i class="fa fa-map-marker"></i> @r.Address
+                            </p>
+
+                            <!-- BUTTON -->
+                            <a href="/Restaurants/Menu/@r.RestaurantID"
+                               class="btn btn-primary w-100">
+                                View Menu
+                            </a>
+
+                        </div>
+
+                    </div>
+                </div>
+            }
+        </div>
+
+    </div>
+</section>

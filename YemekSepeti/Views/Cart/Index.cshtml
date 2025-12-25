@@ -1,0 +1,76 @@
+@model List<YemekSepeti.Models.CartItem>
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewData["Title"] = "Cart";
+}
+
+<h2 class="mb-4">🛒 Your Cart</h2>
+
+@if (Model == null || !Model.Any())
+{
+    <div class="alert alert-info">
+        Your cart is empty.
+    </div>
+
+    <a asp-controller="Restaurants"
+       asp-action="Index"
+       class="btn btn-primary">
+        Go to Restaurants
+    </a>
+}
+else
+{
+    <table class="table table-bordered table-hover">
+        <thead class="table-dark">
+            <tr>
+                <th>Item</th>
+                <th style="width:120px;">Price</th>
+                <th style="width:100px;">Qty</th>
+                <th style="width:120px;">Total</th>
+                <th style="width:100px;"></th>
+            </tr>
+        </thead>
+
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.Name</td>
+                    <td>@item.Price ₺</td>
+                    <td>@item.Quantity</td>
+                    <td class="fw-bold">@item.TotalPrice ₺</td>
+                    <td class="text-center">
+                        <a asp-action="Remove"
+                           asp-route-id="@item.MenuItemId"
+                           class="btn btn-sm btn-danger">
+                            Remove
+                        </a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    <div class="d-flex justify-content-between align-items-center mt-4">
+        <a asp-action="Clear"
+           class="btn btn-warning">
+            Clear Cart
+        </a>
+
+        <div class="text-end">
+            <h4>
+                Total:
+                <span class="text-success">
+                    @Model.Sum(x => x.TotalPrice) ₺
+                </span>
+            </h4>
+
+            <a asp-controller="Order"
+               asp-action="Checkout"
+               class="btn btn-success mt-2">
+                Checkout
+            </a>
+        </div>
+    </div>
+}

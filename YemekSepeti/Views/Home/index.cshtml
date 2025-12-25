@@ -1,0 +1,186 @@
+﻿@model List<YemekSepeti.Models.Restaurant>
+@inject IHttpContextAccessor HttpContextAccessor
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <title>Foodies</title>
+
+    <link rel="stylesheet" type="text/css" href="~/css/bootstrap.css" />
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,600,700&display=swap" rel="stylesheet">
+    <link href="~/css/font-awesome.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-nice-select/1.1.0/css/nice-select.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css" />
+
+    <link href="~/css/style.css" rel="stylesheet" />
+    <link href="~/css/responsive.css" rel="stylesheet" />
+
+    <style>
+        /* Fix stretched giant slider images */
+        .slider_section .img-box img {
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+        }
+
+        .slider_section {
+            position: relative;
+            overflow: hidden;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="hero_area">
+
+        <!-- HEADER -->
+        <header class="header_section">
+            <div class="container-fluid">
+                <nav class="navbar navbar-expand-lg custom_nav-container">
+
+                    <a class="navbar-brand" href="/Home/Index">
+                        <span>Foodies</span>
+                    </a>
+
+                    <div>
+                        <div class="User_option">
+
+                            @if (HttpContextAccessor.HttpContext.Session.GetInt32("UserID") == null)
+                            {
+                                <a href="/Home/Login"><i class="fa fa-user"></i> Login</a>
+                                <a href="/Home/Signup"><i class="fa fa-user-plus"></i> Sign Up</a>
+                            }
+                            else
+                            {
+                                <span style="color:white; margin-right:15px;">
+                                    Hello, @HttpContextAccessor.HttpContext.Session.GetString("FullName")
+                                </span>
+                                <a href="/Home/Logout"><i class="fa fa-sign-out"></i> Logout</a>
+                            }
+
+                            <form class="form-inline" method="get" action="/Restaurants/Search">
+                                <input type="search" name="q" placeholder="Search" />
+                                <button class="btn nav_search-btn" type="submit">
+                                    <i class="fa fa-search"></i>
+                                </button>
+                            </form>
+
+                        </div>
+
+                        <div class="custom_menu-btn">
+                            <button onclick="openNav()">
+                                <img src="~/images/menu.png" alt="">
+                            </button>
+                        </div>
+
+                        <div id="myNav" class="overlay">
+                            <div class="overlay-content">
+                                <a href="/Home/index">Home</a>
+                                <a href="/Home/about">About</a>
+                                <a href="/Home/blog">Blog</a>
+                                <a href="/Home/MyOrder">My Orders</a>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </nav>
+            </div>
+        </header>
+
+        <!-- SLIDER SECTION (FULLY FIXED STRUCTURE) -->
+        <section class="slider_section">
+
+            <div class="slider_bg_box">
+                <img src="~/images/slider-bg.jpg" alt="">
+            </div>
+
+            <div id="customCarousel" class="carousel slide" data-ride="carousel">
+
+                <div class="carousel-inner">
+
+                    <div class="carousel-item active">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-10 mx-auto">
+
+                                    <div class="detail-box">
+                                        <h1>Discover Restaurant And Food</h1>
+                                        <p>The best way to explore amazing dishes around you</p>
+                                    </div>
+
+                                    <!-- SEARCH BAR HERE -->
+                                    <div class="find_container">
+                                        <form method="get" action="/Restaurants/Search">
+                                            <div class="form-row">
+
+                                                <div class="form-group col-lg-5">
+                                                    <input type="text"
+                                                           class="form-control"
+                                                           name="q"
+                                                           placeholder="Restaurant or Food Name" />
+                                                </div>
+
+                                                <div class="form-group col-lg-3 position-relative">
+                                                    <input type="text"
+                                                           class="form-control"
+                                                           name="location"
+                                                           placeholder="All Locations" />
+                                                    <span class="location_icon"><i class="fa fa-map-marker"></i></span>
+                                                </div>
+
+                                                <div class="form-group col-lg-4">
+                                                    <div style="display:flex; gap:10px;">
+
+                                                        <button type="submit"
+                                                                class="btn"
+                                                                style="background:#FFD700; font-weight:bold; flex:1;">
+                                                            Search
+                                                        </button>
+
+                                                        <a href="/Restaurants"
+                                                           class="btn"
+                                                           style="background:#FFD700; font-weight:bold; flex:1;">
+                                                            View All
+                                                        </a>
+
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </form>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </div>
+
+    <script src="~/js/jquery-3.4.1.min.js"></script>
+    <script src="~/js/bootstrap.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.js"></script>
+    <script src="~/js/custom.js"></script>
+
+</body>
+</html>

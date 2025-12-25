@@ -1,0 +1,45 @@
+@model List<YemekSepeti.Models.Order>
+
+@{
+    ViewData["Title"] = "My Orders";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2 class="mb-4">📦 My Orders</h2>
+
+@if (!Model.Any())
+{
+    <div class="alert alert-info">
+        You have not placed any orders yet.
+    </div>
+}
+else
+{
+    <table class="table table-bordered table-hover">
+        <thead class="table-dark">
+            <tr>
+                <th>Order #</th>
+                <th>Date</th>
+                <th>Status</th>
+                <th>Total</th>
+            </tr>
+        </thead>
+        <tbody>
+        @foreach (var order in Model)
+        {
+            <tr>
+                <td>#@order.OrderID</td>
+                <td>@order.OrderDate.ToString("dd MMM yyyy HH:mm")</td>
+                <td>
+                    <span class="badge bg-warning text-dark">
+                        @order.Status
+                    </span>
+                </td>
+                <td class="fw-bold text-success">
+                    ₺@order.TotalPrice
+                </td>
+            </tr>
+        }
+        </tbody>
+    </table>
+}

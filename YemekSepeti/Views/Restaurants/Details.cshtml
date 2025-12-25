@@ -1,0 +1,19 @@
+@model YemekSepeti.Models.Restaurant
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<section class="layout_padding" style="padding: 80px 0;">
+    <div class="container">
+
+        <h2 class="mb-3">@Model.Name</h2>
+
+        <p>@Model.Description</p>
+        <p><b>Address:</b> @Model.Address</p>
+
+        <a href="/Restaurants/Menu/@Model.RestaurantID" class="btn btn-dark mt-3">
+            View Menu
+        </a>
+    </div>
+</section>

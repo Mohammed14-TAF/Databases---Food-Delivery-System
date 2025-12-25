@@ -1,0 +1,78 @@
+@model List<YemekSepeti.Models.Restaurant>
+
+@{
+    ViewBag.Title = "Search Results";
+    var menuResults = ViewBag.MenuResults as List<YemekSepeti.Models.MenuItem>;
+    string query = ViewBag.Query ?? "";
+}
+
+<div class="container mt-5">
+    <h2 class="mb-4">Search Results for: <strong>@query</strong></h2>
+
+    <!-- ============================= -->
+    <!-- RESTAURANT SEARCH RESULTS -->
+    <!-- ============================= -->
+    <h3>Restaurants</h3>
+
+    @if (Model != null && Model.Count > 0)
+    {
+        <div class="row">
+            @foreach (var r in Model)
+            {
+                <div class="col-md-4 mb-4">
+                    <div class="card shadow-sm">
+                        <img src="@r.ImageUrl" class="card-img-top" style="height:200px; object-fit:cover;" />
+
+                        <div class="card-body">
+                            <h5 class="card-title">@r.Name</h5>
+                            <p class="card-text">@r.Description</p>
+
+                            <a href="/Restaurants/Menu/@r.RestaurantID" class="btn btn-primary">
+                                View Menu
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    }
+    else
+    {
+        <p>No restaurants matched your search.</p>
+    }
+
+    <hr />
+
+    <!-- ============================= -->
+    <!-- MENU ITEM SEARCH RESULTS -->
+    <!-- ============================= -->
+    <h3>Menu Items</h3>
+
+    @if (menuResults != null && menuResults.Count > 0)
+    {
+        <div class="row">
+            @foreach (var item in menuResults)
+            {
+                <div class="col-md-4 mb-4">
+                    <div class="card shadow-sm">
+                        <img src="@item.ImageUrl" class="card-img-top" style="height:200px; object-fit:cover;" />
+
+                        <div class="card-body">
+                            <h5 class="card-title">@item.Name</h5>
+                            <p class="card-text">@item.Description</p>
+                            <p><strong>₺@item.Price</strong></p>
+
+                            <a href="/Restaurants/Menu/@item.RestaurantID" class="btn btn-warning">
+                                View Restaurant
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    }
+    else
+    {
+        <p>No food items matched your search.</p>
+    }
+</div>

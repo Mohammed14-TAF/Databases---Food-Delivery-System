@@ -1,0 +1,84 @@
+@model List<YemekSepeti.Models.Restaurant>
+
+@{
+    Layout = "_Layout";
+}
+
+<section class="layout_padding" style="padding: 80px 0;">
+    <div class="container">
+
+        <h2 class="heading_center" style="margin-bottom: 40px;">
+            Manage Restaurants
+        </h2>
+
+        <!-- Add Button -->
+        <div style="margin-bottom: 25px;">
+            <a href="/Admin/AddRestaurant"
+               class="btn btn-dark"
+               style="padding:12px 22px; font-size:16px; border-radius:6px;">
+                Add New Restaurant
+            </a>
+        </div>
+
+        <!-- Restaurant Table -->
+        <table class="table table-bordered table-striped" style="background:white;">
+            <thead style="background:#f5f5f5; font-weight:600;">
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                    <th>Address</th>
+                    <th>Status</th>
+                    <th style="width: 240px;">Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var r in Model)
+                {
+                    <tr>
+                        <td>@r.RestaurantID</td>
+                        <td>@r.Name</td>
+                        <td>@r.Description</td>
+                        <td>@r.Address</td>
+
+                        <td>
+                            @if (r.IsActive)
+                            {
+                                <span class="text-success">Active</span>
+                            }
+                            else
+                            {
+                                <span class="text-danger">Inactive</span>
+                            }
+                        </td>
+
+                        <td>
+
+                            <!-- View Menu Button -->
+                            <a href="/Admin/RestaurantMenu/@r.RestaurantID"
+                               class="btn btn-sm btn-dark"
+                               style="margin-right:5px;">
+                                View Menu
+                            </a>
+
+                            <!-- Edit -->
+                            <a href="/Admin/EditRestaurant/@r.RestaurantID"
+                               class="btn btn-sm btn-secondary"
+                               style="margin-right:5px;">
+                                Edit
+                            </a>
+
+                            <!-- Delete -->
+                            <a href="/Admin/DeleteRestaurant/@r.RestaurantID"
+                               class="btn btn-sm btn-outline-danger">
+                                Deactivate
+                            </a>
+
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+
+    </div>
+</section>
